@@ -6,4 +6,8 @@ public class BaseRequest {
     protected String url;
     protected String method;
     protected static final String METHOD_INFO_MESSAGE = "Set method: ";
+
+    public void testMethod(){
+        System.out.print("examlple");
+    }
 }
