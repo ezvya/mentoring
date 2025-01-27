@@ -1,7 +1,7 @@
-package updatedTestsVer3;
+package oopExamples.updatedTestsVer3;
 
-import updatedTestsVer3.requests.GetRequest;
-import updatedTestsVer3.requests.PostRequest;
+import oopExamples.updatedTestsVer3.requests.GetRequest;
+import oopExamples.updatedTestsVer3.requests.PostRequest;
 
 import java.util.ArrayList;
 import java.util.List;

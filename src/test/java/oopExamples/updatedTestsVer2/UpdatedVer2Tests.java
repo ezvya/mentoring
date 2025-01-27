@@ -1,4 +1,4 @@
-package updatedTestsVer2;
+package oopExamples.updatedTestsVer2;
 
 import org.testng.annotations.Test;
 

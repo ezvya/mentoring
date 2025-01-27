@@ -1,4 +1,4 @@
-package simpleVersionTests;
+package oopExamples.simpleVersionTests;
 
 import org.testng.annotations.Test;
 

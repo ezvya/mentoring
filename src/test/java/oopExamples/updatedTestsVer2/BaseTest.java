@@ -1,6 +1,6 @@
-package updatedTestsVer2;
+package oopExamples.updatedTestsVer2;
 
-import updatedTestsVer2.requests.GetRequest;
+import oopExamples.updatedTestsVer2.requests.GetRequest;
 
 public class BaseTest {
 

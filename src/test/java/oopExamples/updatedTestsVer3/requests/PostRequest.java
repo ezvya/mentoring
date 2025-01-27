@@ -1,4 +1,4 @@
-package updatedTestsVer3.requests;
+package oopExamples.updatedTestsVer3.requests;
 
 public class PostRequest extends BaseRequest implements Request {
 

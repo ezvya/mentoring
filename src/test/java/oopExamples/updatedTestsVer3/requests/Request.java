@@ -1,10 +1,13 @@
-package updatedTestsVer3.requests;
+package oopExamples.updatedTestsVer3.requests;
 
 public interface Request {
+
+    String name = "";
 
     void setMethod();
 
     void send();
 
     void resultLog();
+
 }

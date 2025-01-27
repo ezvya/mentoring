@@ -1,8 +1,8 @@
-package updatedTestsVer2;
+package oopExamples.updatedTestsVer2;
 
-import updatedTestsVer2.requests.GetRequest;
-import updatedTestsVer2.requests.PostRequest;
-import updatedTestsVer2.requests.Request;
+import oopExamples.updatedTestsVer2.requests.GetRequest;
+import oopExamples.updatedTestsVer2.requests.PostRequest;
+import oopExamples.updatedTestsVer2.requests.Request;
 
 public class TestActions {
 

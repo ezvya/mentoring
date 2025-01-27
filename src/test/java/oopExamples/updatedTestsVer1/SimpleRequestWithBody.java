@@ -1,4 +1,4 @@
-package updatedTestsVer1;
+package oopExamples.updatedTestsVer1;
 
 public class SimpleRequestWithBody {
 

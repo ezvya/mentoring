@@ -1,7 +1,7 @@
-package updatedTestsVer3;
+package oopExamples.updatedTestsVer3;
 
 import org.testng.annotations.Test;
-import updatedTestsVer3.requests.PostRequest;
+import oopExamples.updatedTestsVer3.requests.PostRequest;
 
 public class UpdatedVer3Tests extends BaseTest {
 

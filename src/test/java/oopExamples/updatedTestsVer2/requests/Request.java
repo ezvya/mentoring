@@ -1,4 +1,4 @@
-package updatedTestsVer2.requests;
+package oopExamples.updatedTestsVer2.requests;
 
 public abstract class Request {
 
