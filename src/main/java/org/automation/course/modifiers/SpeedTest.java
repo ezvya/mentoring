@@ -53,7 +53,8 @@ public class SpeedTest {
         for (int i = 0; i < 1_000_000; i++) {
             example.getNonFinalValue();
         }
-        System.out.println("Non-final method time: " + (System.currentTimeMillis() - start)  + " ms");
+        long end = System.currentTimeMillis();
+        System.out.println("Non-final method time: " + (end - start)  + " ms");
 
     }
 }

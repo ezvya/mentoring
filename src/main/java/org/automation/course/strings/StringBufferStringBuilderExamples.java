@@ -3,7 +3,7 @@ package org.automation.course.strings;
 public class StringBufferStringBuilderExamples {
 
     public static void main(String[] args) {
-        // StringBuilder (быстрее (в теории), но не потокобезопасно)
+        // StringBuilder (быстрее, но не потокобезопасно)
         StringBuilder sb = new StringBuilder("This is ");
         sb.append("an example");
         System.out.println("StringBuilder: " + sb);

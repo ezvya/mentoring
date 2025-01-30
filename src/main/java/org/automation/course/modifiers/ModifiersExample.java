@@ -1,12 +1,15 @@
 package org.automation.course.modifiers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ModifiersExample {
 
     /*
     Значение переменной не должно изменяться: final
     Метод или переменная должны быть общими для всех объектов: static
     Класс или метод не должны изменяться (Для предотвращения наследования или переопределения): final
-    Метод не использует состояние объекта (Для независимых методов):	static
+    Метод не использует состояние объекта (Для независимых методов): static
     Инициализация статических данных через блок (Для сложной инициализации общих данных): static
      */
 
@@ -16,6 +19,7 @@ public class ModifiersExample {
     строковые значения и проч
      */
     public static final String APPLICATION_NAME = "TestProject";
+    public static final List<String> list = new ArrayList<>();
 
     // Final поле (значение устанавливается один раз)
     public final int id;
@@ -58,6 +62,7 @@ public class ModifiersExample {
         Example example = new Example();
 //        нельзя назначить новое значение финальной переменной
 //        example.id = 5;
-    }
+        list.forEach(System.out::println);
 
+    }
 }
